@@ -1,0 +1,22 @@
+,FINAL_DISPO_CODE,FINAL_DISPO
+4,A,Arrest Made
+656,ADV,No Disposition
+127,B,Arrest by Warrant
+259,C,Criminal Citation
+2,CAN,Canceled
+59,D,"Traffic Citation Issued, Hazardous Violation"
+56,DUPNCAN,No Disposition
+196,E,"Traffic Citation Issued, Non-Hazardous Violation"
+1390,F,Field Interview (F.I.) Completed
+48,G,Gone on Arrival/unable to locate
+14,GD,No Disposition
+62,H,Courtesy Service/Citizen or agency assist
+12791,M,Stranded motorist assist
+0,N,No report required; dispatch record only
+41,NR,No Response
+157,O,Supplemental report taken
+1909,P,"Prior case, follow-up activity only"
+49,R,Report taken
+21,T,Turned over To (TOT)
+60,U,Unfounded event
+23958,Z,No Disposition
