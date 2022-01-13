@@ -1,22 +1,30 @@
 ,FINAL_DISPO_CODE,FINAL_DISPO
-4,A,Arrest Made
-656,ADV,No Disposition
-127,B,Arrest by Warrant
-259,C,Criminal Citation
-2,CAN,Canceled
-59,D,"Traffic Citation Issued, Hazardous Violation"
-56,DUPNCAN,No Disposition
-196,E,"Traffic Citation Issued, Non-Hazardous Violation"
-1390,F,Field Interview (F.I.) Completed
-48,G,Gone on Arrival/unable to locate
-14,GD,No Disposition
-62,H,Courtesy Service/Citizen or agency assist
-12791,M,Stranded motorist assist
-0,N,No report required; dispatch record only
-41,NR,No Response
-157,O,Supplemental report taken
-1909,P,"Prior case, follow-up activity only"
-49,R,Report taken
-21,T,Turned over To (TOT)
-60,U,Unfounded event
-23958,Z,No Disposition
+109,A,Arrest Made
+1353,ADV,No Disposition
+666,B,Arrest by Warrant
+304,C,Criminal Citation
+0,CAN,Canceled
+109328,D,"Traffic Citation Issued, Hazardous Violation"
+64,D,"Traffic Citation Issued, Hazar"
+41,DUPNCAN,No Disposition
+109408,E,"Traffic Citation Issued, Non-Hazardous Violation"
+120,E,"Traffic Citation Issued, Non-H"
+110621,F,Field Interview (F.I.) Completed
+285,F,Field Interview (F.I.) Complet
+39,G,Gone on Arrival/unable to loca
+109338,G,Gone on Arrival/unable to locate
+115,GD,No Disposition
+127,H,Courtesy Service/Citizen or ag
+109392,H,Courtesy Service/Citizen or agency assist
+4456,M,Stranded motorist assist
+17,N,No report required; dispatch r
+109329,N,No report required; dispatch record only
+8,NR,No Response
+67,O,Supplemental report taken
+118268,P,"Prior case, follow-up activity only"
+14263,P,"Prior case, follow-up activity"
+33,R,Report taken
+20,T,Turned over To (TOT)
+11627,TOT,No Disposition
+112,U,Unfounded event
+4232,Z,No Disposition
