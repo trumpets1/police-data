@@ -10,6 +10,14 @@ def preprocess(df, year):
         lambda code: 1 if (code == 'A' or code == 'B' or code == 'C') else 0)
     return df_params
 
+def preprocess_bayes(df):
+    df_params = df[['PRIORITY', 'CALLTYPE_CODE']]
+    df_params['CALLTYPE_CODE'] = df['CALLTYPE_CODE'].astype(str)
+    df_params['OFFENSE_MONTH'] = pd.to_datetime(df['OFFENSE_DATE']).dt.month
+    df_params['OFFENSE_HOUR'] = pd.to_datetime(df['OFFENSE_TIME']).dt.hour
+    df_params['RESULT'] = df['FINAL_DISPO_CODE'].apply(
+        lambda code: 1 if (code == 'A' or code == 'B' or code == 'C') else 0)
+    return df_params
 
 def standardize(df, cols):
     df_new = df.copy()
