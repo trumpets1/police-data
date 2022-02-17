@@ -6,6 +6,8 @@ This is just some data analysis and machine learning that I chose to do on San J
 
 For machine learning, I'm just comparing the performance of the naive Bayes classifier and the one-class SVM (with stochastic gradient descent).
 
+Utilizes scikit-learn, pandas, numpy, and matplotlib.
+
 ## CSV generator notebook
 
 These notebooks contain data processing/generation steps for each component of this whole project.
