@@ -1,9 +1,8 @@
 import pandas as pd
 from sklearn.naive_bayes import CategoricalNB
 from sklearn.linear_model import SGDOneClassSVM
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import OrdinalEncoder
-from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, roc_auc_score, recall_score, precision_score
-from sklearn.metrics import f1_score, classification_report
 from sklearn.model_selection import train_test_split
 
 
@@ -33,3 +32,12 @@ def oc_svm_predictor(X_train, anomaly_fraction):
         tol=1e-6,)
     svm.fit(X_train)
     return svm
+
+
+def gb_predictor(X_train, y_train):
+    gb = GradientBoostingClassifier(
+        n_estimators=100, learning_rate=1.0,
+        max_depth=1, random_state=0
+    )
+    gb.fit(X_train, y_train)
+    return gb
